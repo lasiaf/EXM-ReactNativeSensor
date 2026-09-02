@@ -1,7 +1,10 @@
-import TestHello from "test-hello.js";
-
+import TestHello from "./test-hello";
+import TestQR from "./test-qr";
+import Test from "./test";
 
 export {
    
-    TestHello
+    TestHello,
+    TestQR,
+    Test
 }

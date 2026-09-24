@@ -7,7 +7,8 @@ import {
   
   TestHello,
   TestQR,
-  Test
+  Test,
+  NFCReader
 
 } from './presentations/screens';
 
@@ -22,6 +23,7 @@ const Apps = () => {
         <Stack.Screen name='TestHello' component={TestHello} options={{ headerShown: false }} />
         <Stack.Screen name='TestQR' component={TestQR} options={{ headerShown: false }} />
         <Stack.Screen name='Test' component={Test} options={{ headerShown: false }} />
+        <Stack.Screen name='NFCReader' component={NFCReader} options={{ headerShown: false }} />
       </Stack.Navigator>
     </NavigationContainer>
   )

@@ -28,6 +28,14 @@ const TestScreen = ({ navigation }) => {
                 />
             </View>
             
+            <View style={styles.buttonContainer}>
+                <Button
+                    title="NFC SCANNER"
+                    onPress={() =>
+                        navigation.navigate('NFCReader')
+                    }
+                />
+            </View>
 
         </View>
     );

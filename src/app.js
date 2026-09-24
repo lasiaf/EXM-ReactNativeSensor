@@ -7,6 +7,7 @@ import {
   
   TestHello,
   TestQR,
+  TestBarcode,
   Test,
   NFCReader
 
@@ -24,6 +25,7 @@ const Apps = () => {
         <Stack.Screen name='TestQR' component={TestQR} options={{ headerShown: false }} />
         <Stack.Screen name='Test' component={Test} options={{ headerShown: false }} />
         <Stack.Screen name='NFCReader' component={NFCReader} options={{ headerShown: false }} />
+        <Stack.Screen name='TestBarcode' component={TestBarcode} options={{ headerShown: false }} />
       </Stack.Navigator>
     </NavigationContainer>
   )

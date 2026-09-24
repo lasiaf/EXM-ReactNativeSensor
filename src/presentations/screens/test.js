@@ -27,6 +27,15 @@ const TestScreen = ({ navigation }) => {
                     }
                 />
             </View>
+
+            <View style={styles.buttonContainer}>
+                <Button
+                    title="BARCODE SCANNER"
+                    onPress={() =>
+                        navigation.navigate('TestBarcode')
+                    }
+                />
+            </View>
             
             <View style={styles.buttonContainer}>
                 <Button
